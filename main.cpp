@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <chrono>
 #include <opencv2/opencv.hpp>
-// #include <opencv2/gpu/gpu.hpp>
 #include <opencv2/core/cuda.hpp>
+#include <opencv2/cudawarping.hpp>
 
 #define NUM_REPEAT 10000
 
